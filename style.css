@@ -1,0 +1,49 @@
+header,
+footer {
+  background: black;
+  color: white;
+}
+
+header,
+main {
+  margin: 0;
+  padding: 1px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+li,
+.content {
+  padding: 15px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: gainsboro;
+}
+
+p {
+  text-align: justify;
+  columns: 4;
+  column-rule: 2px solid black;
+}
+
+footer {
+  height: 40px;
+  text-align: center;
+  font-size: 0.75em;
+}
+.content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
